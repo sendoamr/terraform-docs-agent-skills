@@ -1,5 +1,7 @@
 # terraform-docs-agent-skills
 
+Auto generator for docs and basic test of terraform modules, using agent skills framework and ollama
+
 ## Setup
 Create virtual env
 ```
