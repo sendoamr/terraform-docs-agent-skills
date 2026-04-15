@@ -1,0 +1,7 @@
+/.venv/
+.idea/
+core/__pycache__/
+docs.md
+skills/terraform-docs/__pycache__/
+skills/terraform-tests/__pycache__/
+tests/
