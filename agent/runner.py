@@ -4,7 +4,7 @@ import os
 SKILLS_PATH = "skills"
 
 def load_skill(skill_name):
-    path = os.path.join(SKILLS_PATH, skill_name, "run.py")
+    path = os.path.join(SKILLS_PATH, skill_name, "scripts", "run.py")
 
     spec = importlib.util.spec_from_file_location(skill_name, path)
     module = importlib.util.module_from_spec(spec)
